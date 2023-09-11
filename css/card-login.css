@@ -1,0 +1,17 @@
+.card-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 20px 60px #00000056;
+}
+
+.card-login h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
