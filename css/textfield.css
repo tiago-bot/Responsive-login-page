@@ -27,3 +27,33 @@
 .textfield input::placeholder {
     color: #f0ffff94;
 }
+
+@media only screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-login {
+        flex-direction: column;
+    }
+    .left-login h1 {
+        display: none;
+    }
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+    .left-login img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-login {
+        width: 100%;
+    }
+}
